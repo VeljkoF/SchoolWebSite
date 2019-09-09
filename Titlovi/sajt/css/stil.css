@@ -1,0 +1,642 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.cisti{
+	clear:both;
+}
+body{
+	background-color: #A8FFA8;
+}
+#omot{
+	width:1000px;
+	margin: 0px auto;
+	
+}
+#gost{
+	text-align:right;
+	padding-right:50px;
+}
+#head{
+	width:1000px;
+	height:400px;
+	background: url("giphy.gif");
+}
+#titlovi{
+	font-size:30pt;
+	font-family: Pristina;
+	color:#A8FFA8;
+	float:right;
+	margin-right:100px;
+	margin-top:20px;
+	position:aboslute;
+	z-index:-1;
+}
+#na_srpskom{
+	position: relative;
+	float:right;
+	margin-top:70px;
+	margin-right:-275px;
+}
+#head a{
+	text-decoration:none;
+}
+#p_slika{
+	width:1000px;
+	height:540px;
+	position:absolute;
+	z-index:-1;
+	clip: rect(0px,1000px,400px,0px);
+}
+#search{
+	position:absolute;
+	margin-top:12px;
+	margin-left:20px;
+}
+#search input{
+	font-size:15px;
+	border-radius: 2px 2px 2px 2px;
+	padding:2px;
+	width:140px;
+}
+#TextHint{
+   
+   /*  position:absolute;
+	z-index:55;
+	width:150px; */
+}
+.izaberite{
+	background-color: #A8FFA8;
+	font-size:15px;
+	border-radius: 3px 3px 3px 3px;
+	padding:2px;
+}
+#lista{
+	font-size:15px;
+	border-radius: 3px 3px 3px 3px;
+	padding:2px;
+}
+#tbKorisnickoImeLog{
+	padding:2px;
+}
+#tbLozinkaLog{
+	padding:2px;
+	margin-top:10px;
+}
+.meni{
+	width:998px;
+	height:48px;
+	border: 1px solid black;
+	float:right;
+	margin-top: 181px;
+	background-color: #004000;
+}
+.meni ul{
+	padding-top:4px;
+	list-style: none;
+	width:830px;
+	float: right;
+}
+.meni li ul{
+	list-style:none;
+	float:left;
+	margin:0px;
+	padding:0px;
+}
+.meni ul li{	
+	float: left;
+	text-align:center;
+	width:160px;
+	margin-left:5px;
+}
+	
+.meni ul li a{
+	text-decoration: none;
+	color:#FFF;
+	padding:10px 5px 10px 5px;
+	display:block;
+	background: #008000;
+	border-radius: 5px 5px 5px 5px;
+	border: 1px solid #000;
+}
+.meni a:hover{
+	background: #008000;
+	color:#fff;
+	font-style: italic;	
+	border: 1px solid #000;
+	border-radius: 5px 5px 5px 5px;
+	left:auto;
+}
+.meni li ul{
+	position:absolute;
+	margin-top:0.5px;
+	background: #A8FFA8;
+	border: 1px solid #000;
+	width:141px;
+	left:-999em;
+	margin:0px auto;
+	margin-left:8px;
+	border-radius: 5px 5px 5px 5px;
+}
+.meni ul ul li{
+	display:block;
+	
+}
+.meni ul ul li a{
+	display: block;
+	background: #A8FFA8;
+	color:#000;
+	width:auto;
+	border-radius: 5px;
+	font-size:15px;
+	margin-left:-5px;
+	width:130px;
+}
+.meni ul ul li a:hover{
+	background: #008000;
+	color: #FFF;
+	border: 1px solid black;
+	font-size:15px;
+}
+#sadrzaj{
+	width:1000px;
+	height:1000px;
+	background-color: #008000;
+	padding-top: 20px;
+}
+#sadrzaj h2{
+	text-align:center;
+	margin-bottom:10px;
+}
+#sadrzaj h3{
+	text-align:center;
+	margin-top:30px;
+	margin-bottom:10px;
+}
+#galerija{
+	margin: 0px auto;
+	width:900px;
+	height:900px;
+}
+.gslika{
+	width:220px;
+	float:left;
+	margin: 0px auto;
+}
+.gslika img{
+	width:200px;
+	height:200px;
+	padding:10px;
+}
+.gslika p{
+	text-align:center;
+}
+.gslika form{
+	text-align:center;
+}
+.gslika select{
+	padding:2px;
+	border-radius:5px;
+	background-color:#A8FFA8;
+	
+}
+#prikaz2{
+	width:800px;
+	height:20px;
+	text-align:center;
+	margin:0px auto;
+}
+.ocena{
+	text-align:center;
+	padding-top:5px;
+}
+#svi_postovi{
+	height:950px;
+	width:1000px;
+}
+.post{
+	background-color: #004000;
+	width:900px;
+	margin: 0px auto;
+	margin-top: 20px;
+	padding:10px;
+	height:110px;
+}
+.skinuti{
+	width:180px;
+	float:left;
+}
+.skinuti img{
+	width:180px;
+	height:110px;
+}
+.info{
+	width:700px;
+	float:right;
+	height:110px;
+}
+.nazivi{
+	width:500px;
+	height:110px;
+	float:left;
+}
+.nazivFilma{
+	font-size:20px;
+}
+.opisFilma{
+	padding-top:5px;
+}
+.ime_datum{
+	float:right;
+	font-size:10px;
+	margin-top:90px;
+	margin-right:10px;
+
+}
+
+#registracija{
+	width:700px;
+	margin:0px auto;
+	margin-top:60px;
+}
+#niste{
+	border: 1px solid #FFF;
+	border-radius: 20px;
+	width:380px;
+	margin:0px auto;
+	text-align:center;
+	padding:20px;
+	font-size:17px;
+}
+#niste a {
+	text-decoration:none;
+	color:white;
+}
+#niste2{
+	border: 1px solid red;
+	border-radius: 20px;
+	width:500px;
+	margin: 10%;
+	text-align:center;
+	padding:20px;
+	font-size:17px;
+}
+#niste2 a {
+	text-decoration:none;
+	color:red;
+}
+#ispis{
+	border-radius: 20px;
+	text-align:center;
+	width:600px;
+	color:yellow;
+	border: 1px solid white;
+	padding:10px;
+	margin:0px auto;
+	margin-top:30px;
+	margin-bottom:5px;
+}
+#ispis4{
+	border-radius: 20px;
+	text-align:center;
+	width:600px;
+	border: 1px solid white;
+	padding:10px;
+	margin:0px auto;
+	margin-top:30px;
+	margin-bottom:5px;
+}
+#registracija fieldset{
+	padding:20px;
+	border: 1px solid #FFF;
+	border-radius: 20px;
+	width:600px;
+	margin:0px auto;
+}
+#registracija input{
+	font-size:15px;
+	border-radius: 2px 2px 2px 2px;
+	padding:2px;
+}
+#registracija select{
+	font-size:15px;
+	border-radius: 2px 2px 2px 2px;
+	padding:2px;
+	width:83px;
+}
+#obrisi{
+	padding-top:10px;
+	margin:0px auto;
+	width:900px;
+	text-align:center;
+}
+#obrisi h2{
+	text-align:center;
+	margin-bottom: 10px;
+	width:600px;
+}
+#obrisi h3{
+	text-align:center;
+	margin-top:15px;
+	margin-bottom: 10px;
+	width:600px;
+}
+#obrisi form{
+	width:900px;
+	margin:0px auto;
+}
+#obrisi table{
+	padding:2px;
+	width:900px;
+	margin:0px auto;
+}
+#obrisi fieldset{
+	padding:20px;
+	border: 1px solid #FFF;
+	border-radius: 20px;
+}
+#obrisi input{
+	font-size:15px;
+	border-radius: 2px 2px 2px 2px;
+	padding:2px;
+}
+#obrisi select{
+	font-size:15px;
+	border-radius: 2px 2px 2px 2px;
+	padding:2px;
+	width:150px;
+}
+#obrisi th{
+	padding:10px;
+	font-size:18px;
+}
+#obrisi td{
+	padding:5px;
+}
+#obrisi a{
+	text-decoration:none;
+	color:white;
+}
+#obrisi2{
+	padding-top:10px;
+	margin:0px auto;
+	width:900px;
+	text-align:center;
+}
+#obrisi2 h2{
+	text-align:center;
+	margin-bottom: 10px;
+	width:900px;
+}
+#obrisi2 h3{
+	text-align:center;
+	margin-top:15px;
+	margin-bottom: 10px;
+	width:900px;
+}
+#obrisi2 form{
+	width:900px;
+	margin:0px auto;
+	margin-top:10px;
+}
+#obrisi2 table{
+	padding:2px;
+	width:600px;
+	margin:0px auto;
+}
+#obrisi2 fieldset{
+	padding:20px;
+	border: 1px solid #FFF;
+	border-radius: 20px;
+	width:700px;
+	margin:0px auto;
+}
+#obrisi2 input{
+	font-size:15px;
+	border-radius: 2px 2px 2px 2px;
+	padding:2px;
+}
+#obrisi2 select{
+	font-size:15px;
+	border-radius: 2px 2px 2px 2px;
+	padding:2px;
+	width:150px;
+}
+#obrisi2 th{
+	padding:10px;
+	font-size:18px;
+}
+#obrisi2 td{
+	padding:5px;
+}
+#obrisi2 a{
+	text-decoration:none;
+	color:white;
+}
+.reg{
+	font-size:12px;
+	color:silver;
+}
+#drugif{
+	margin-top: 60px;
+}
+#registracija td{
+	width:200px;
+	padding:2px;
+}
+#registracija table{
+	width:450px;
+	margin:0px auto;
+}
+.polje{
+	width:250px;
+}
+#dugmici{
+	text-align:center;
+	margin-top:40px;
+}
+#dugmici2{
+	margin-top:20px;
+	background-color: #A8FFA8;
+	float:right;
+	margin-right:5px;
+	padding: 2px 5px 2px 5px;
+	font-size:15px;
+}
+#dugmici3{
+	margin-top:20px;
+	padding: 2px 5px 2px 5px;
+	float:left;
+	background-color: #A8FFA8;
+	margin-left:15px;
+	font-size:15px;
+}
+#dugmici4{
+	padding: 2px 5px 2px 5px;
+	background-color: #A8FFA8;
+	font-size:15px;
+}
+.dugme{
+	font-size:15px;
+	border-radius: 2px 2px 2px 2px;
+	padding: 2px 5px 2px 5px;
+	width:100px;
+	background-color: #A8FFA8;
+}
+.dugme2{
+	font-size:15px;
+	border-radius: 2px 2px 2px 2px;
+	padding: 2px 5px 2px 5px;
+	width:100px;
+	margin-top:10px;
+	background-color: #A8FFA8;
+}
+#slikaja{
+	float: right;
+	margin-right:60px;
+	margin-top:60px;
+}
+#omeni{
+	margin-left:60px;
+	margin-top:100px;
+	width:500px;
+	text-align: justify;
+}
+#admin{
+	margin:0px auto;
+	margin-top:50px;
+	width:900px;
+	text-align:center;
+}
+#admin table{
+	margin:0px auto;
+}
+#prikaz{
+	margin:0px auto;
+	width:900px;
+	margin-top:50px;
+}
+#prikaz table{
+	margin:0px auto;
+	width:900px;
+}
+#prikaz th{
+	width:100px;
+}
+#prikaz td{
+	width:100px;
+}
+#prikaz a{
+	text-decoration:none;
+	color:white;
+}
+#novi{
+
+}
+.mala_slika{
+	width:50px;
+	height:50px;
+}
+.navigator{
+	color:white;
+	margin:0px auto;
+	width:900px;
+	font-size:17px;
+	text-align:center;
+}
+.navigator a{
+	color:white;
+}
+.navigator2{
+	color:white;
+	margin:0px auto;
+	width:900px;
+	font-size:17px;
+	text-align:center;
+}
+.navigator2 a{
+	color:white;
+}
+#anketa{
+	width:600px;
+	margin:0px auto;
+	margin-top:120px;
+}
+#anketa h3{
+	font-size:22px;
+}
+#pitanje{
+	border: 1px solid white;
+	border-radius: 20px;
+	text-align:center;
+	width:400px;
+	margin:0px auto;
+	margin-bottom:10px;
+}
+#pitanje h4{
+	font-size:20px;
+	margin-bottom:10px;
+}
+#pitanje table{
+	text-align:center;
+	width:400px;
+	margin:0px auto;
+	padding:5px;
+}
+#pitanje td{
+	padding:2px;
+}
+#glasaj{
+	width:400px;
+	margin-bottom:20px;
+	margin-top:10px;
+}
+#rezultat{
+	border: 1px solid white;
+	border-radius: 20px;
+	text-align:center;
+	width:500px;
+	margin:0px auto;
+}
+#rezultat table{
+	text-align:center;
+	width:400px;
+	margin:0px auto;
+	padding:5px;
+}
+#rezultat td{
+	padding:2px;
+	width:100px;
+}
+#rezultat tr{
+	
+}
+.odg{
+	float:right;
+}
+
+#footer{
+	width:1000px;
+	height:80px;
+	background-color: #004000;
+	margin:0px auto;
+}
+#copy{
+	padding-top:20px;
+	padding-left:30px;
+	float:left;
+	width:500px;
+	height:50px;
+	color:#FFF;
+}
+#copy a{
+	color: #FFF;
+}
+#icon{
+	width:250px;
+	float:right;
+	padding:20px;
+}
+#icon a{
+	padding:10px;
+}
