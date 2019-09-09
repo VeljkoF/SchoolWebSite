@@ -1,0 +1,143 @@
+@media screen and (max-width: 1200px) {
+    #slike img{
+        width: 100%;
+        height: 100%;
+    }
+    .recept_slika img{
+        width: 100%;
+        height: 100%;
+    }
+    .upustvo_recept2{
+        width: 100%;
+    }
+
+}
+@media screen and (max-width: 600px) {
+    #nav-wrap {
+        position: relative;
+    }
+    #menu-icon {
+        color: #000;
+        width: 0px;
+        height: 30px;
+        background: #279739 url(../images/menu-icon.png) no-repeat center ;
+        padding: 8px 10px 0 42px;
+        cursor: pointer;
+        border-radius: 10px;
+        display: block;
+    }
+    #menu-icon:hover {
+        background-color: #92d30f;
+    }
+    #menu-icon.active {
+        background-color: #92d30f;
+    }
+    #nav {
+        clear: both;
+        position: absolute;
+        top: 38px;
+        width: 190px;
+        border-radius: 10px;
+        z-index: 10000;
+        padding: 5px;
+        background: #f8f8f8;
+        border: solid 1px #279739;
+        display: none;
+    }
+    #nav li {
+        clear: both;
+        float: none;
+        margin: 5px 0 5px 10px;
+    }
+    #nav .active {
+    background: none;
+    color: #fff;
+    }
+    #nav a, 
+    #nav ul a {
+        font: inherit;
+        background: none;
+        display: inline;
+        padding: 0;
+        color: #666;
+        border: none;
+        margin: 2px;
+    }
+    #nav a:hover, #nav ul a:hover {
+        background: #92d30f;
+        color: #000;
+        border-radius: 5px;
+        padding: 5px;
+        margin: 2px;
+    }
+    #nav ul {
+        width: auto;
+        position: static;
+        display: block;
+        border: none;
+        background: inherit;
+    }
+    #nav ul li {
+        margin: 3px 0 3px 15px;
+    }
+    .nav_donja{
+        float: none;
+    }
+    #why_us li{
+        display: block;
+    }
+    #copyright{
+        float: none;
+        padding: 15px 30px;
+    }
+    .why_us2 li{
+        line-height:22px;
+        margin-left:0em;
+        background:url(../images/marker_3.png) 0 2px no-repeat;
+        padding-left:23px;
+        list-style: none;
+    }
+    .slika_text{
+        margin: 0em;
+        float: none;
+        width: 500px;
+        height:250px;
+        border: 5px solid white;
+        border-radius: 10px;
+    }
+        .slika_text2{
+        margin: 0em;
+        float: none;
+        width: 331px;
+        height:512px;
+        margin-right: 0em;
+    }
+    .recept_slika img{
+        width: 100%;
+        height: 100%;
+    }
+    .upustvo_recept2{
+        width: 100%;
+    }
+    #geolokacija canvas{
+        width: 100%;
+        height: 100%;
+    }
+    #geolokacija{
+        padding-right: 20px;
+    }
+    #logo{
+        background: url(../images/logo3.png) no-repeat;
+    }
+}
+@media screen and (min-width: 600px) {
+    #nav {
+        display: block !important;
+    }
+    
+}
+@media screen and (max-width: 400px) {
+    #logo{
+        background: url(../images/logo2.png) no-repeat;
+    }
+}

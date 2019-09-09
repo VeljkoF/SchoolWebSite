@@ -1,0 +1,219 @@
+body {
+    font:14px "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+a {
+    text-decoration: none;
+}
+h1, h2 {
+    line-height: 120%;
+    margin: 0 0 10px;
+    font-weight: bold;
+    font-size: 1.8em;
+}
+header {
+    content: " "; 
+    display: table; 
+}
+#pagewrap {
+    width: 960px;
+    max-width: 94%;
+    margin: 30px auto 0;
+}
+#content {
+    clear: both;
+    padding-top: 20px;
+    margin: 20px 0;
+}
+#logo{
+    display:block;
+    width: 350px;
+    height:79px;
+    text-indent:-9999px;
+    background: url(../images/logo3.png) no-repeat;
+}
+p{
+    text-align: justify;
+}
+#nav-wrap {
+    margin-top: 20px;
+}
+#menu-icon {
+    display: none;
+}
+#nav, #nav li {
+    margin: 0;
+    padding: 0;
+}
+#nav li {
+    list-style: none;
+    float: left;
+    margin-right: 5px;
+    border-radius: 9px; 
+}
+#nav a {
+    padding: 9px 20px;
+    display: block;
+    font-size: 18px;
+}
+#nav ul a {
+    padding: 9px 20px;
+    display: block;
+    font-size: 15px;
+}
+#nav a:hover {
+    border-radius: 9px; 
+}
+#nav ul {
+    padding: 2px;
+    position: absolute;
+    display: none;
+    width: 200px;
+    border-radius: 7px; 
+}
+#nav ul li {
+    float: none;
+    margin: 0;
+    padding: 0;
+}
+#nav li:hover > ul {
+    display: block;
+}
+#slike{
+    margin-top: 20px;
+    position: relative;
+    z-index: -10000000;
+}
+#slike img{
+    border-radius: 20px;
+}
+.slideShow{
+    display:block;
+}
+#slike img{
+    display:none;
+}
+.footer{
+    border-top: 1px solid black;
+    padding: 10px;
+    margin-top: 70px;
+}
+.nav_donja{
+    float: left;
+}
+#why_us li{
+    display: inline;
+    border-left: 1px solid black;
+    padding-left: 5px;
+}
+.why_us2 li{
+    line-height:22px;
+    margin-left:26em;
+    padding-left:0px;
+    list-style: disc;
+}
+#copyright{
+    float: right;
+    padding: 15px 30px;
+}
+.cisti{
+    clear: both;
+}
+.slika_text{
+    margin: 15px;
+    float: right;
+    width: 500px;
+    height:250px;
+    border: 5px solid white;
+    border-radius: 10px;
+}
+.slika_text2{
+    margin: 15px;
+    float: left;
+    width: 331px;
+    height:512px;
+    margin-right: 40px;
+}
+.slika_text_img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.galerija img{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.cols{
+    width: 280px;
+    float: left;
+    padding: 20px;
+}
+.sastojci{
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+.lista{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.lista li{
+    margin-left: 20px;
+    list-style: none;
+}
+.vise{
+    margin-top: 10px;
+    float: right; 
+    font-size: 1.2em;
+}
+.color{
+    font-weight: bold;
+}
+.font{
+    font-size: 1.5em;
+}
+.recept{
+    width: 280px;
+}
+.image_recipes img{
+    width: 280px;
+    height: 191px;
+}
+.recept_slika{
+    text-align: center;
+}
+.upustvo_recept{
+    margin-top: 40px;
+}
+.upustvo_recept2{
+    width: 600px;
+    margin: 0px auto;
+    margin-top: 20px;
+}
+.color2{
+    font-weight: bold;
+}
+.kontakt{
+    margin-left: 50px;
+    margin-top: 30px;
+    width: 400px;
+    float: left;
+}
+.address li{
+    line-height: 26px;
+}
+#icons img{
+    border-radius: 4px;
+}
+#icons li{
+    list-style: none;
+}
+#icons span {
+    margin-left: 5px;
+}
+#geolokacija{
+    width: 500px;
+    height: 300px;
+    float: left;
+    margin-top: 50px;
+    margin-left: 10px;
+}
