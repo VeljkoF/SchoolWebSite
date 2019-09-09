@@ -1,0 +1,373 @@
+ *{
+padding:0px;
+margin:0px;
+}
+body {
+font-family: Ariel, Calibri;
+}
+#sajt{
+/*background-color:#ccc;*/
+background-image: url(../slike/pozadina6.jpg);
+}
+.sadrzajVrh{
+margin:0px auto;
+width:1000px;
+height:194px;
+
+}
+.slikavrh{
+background-image: url(../slike/omot2.jpg);
+margin:0px auto;
+width:1000px;
+height:194px;
+border:1px solid #000;
+border-radius: 10px;
+}
+.logo{
+float:left;
+padding:0px;
+margin: 0px 0px 0px 25px;
+}
+.naslov{
+width: 400;
+float: left;
+margin: 60px 0px 0px 30px;
+}
+.pretraga{
+margin: 150px 30px 0px 0px;
+width:200px;
+float:right;
+}
+.pretraga input{
+border-radius:5px;
+padding:4px;
+border: 1px solid #000;
+}
+.pretragadugme{
+background-color:#FF9C39;
+border-radius:5px;
+padding:4px;
+border: 1px solid #000;
+}
+.pretragadugme2{
+background-color:#FF9C39;
+border-radius:5px;
+padding:4px 5px 4px 5px;
+border: 1px solid #000;
+}
+.cisti{
+clear:both;
+margin: 0px auto;
+}
+.navigacija{
+background-color:#FF9C39;
+height:50px;
+border:1px solid #000;
+border-radius: 10px;
+width:1000px;
+margin:10px auto;
+
+}
+.navigacija ul{
+list-style:none;
+margin: 2px 0px 0px 130px;
+height:40px;
+width:950px;
+
+}
+.navigacija li{
+float:left;
+margin: 15px 5px;
+width:107px;
+
+}
+a{
+text-decoration:none;
+color:black;
+
+}
+#sadrzaj{
+width:1000px;
+margin: 0px auto;
+}
+.levakolona{
+width:198px;
+float:left;
+}
+.podnavigacija {
+background-image: url(../slike/pozadina.jpg);
+border:1px solid #000;
+border-radius: 10px;
+
+}
+.podnavigacija h3{
+margin:20px;
+margin-bottom:0px;
+}
+.podnavigacija ul{
+list-style:none;
+margin:0px auto;
+padding:10px;
+}
+.podnavigacija ul li{
+padding:0px;
+margin-left:5px;
+margin-top:15px;
+border: 1px solid #000;
+padding:5px;
+background-color:#FF9C39;
+border-radius:5px;
+}
+.logovanje{
+background-image: url(../slike/pozadina.jpg);
+
+margin-top: 10px;
+margin-bottom: 5px;
+border:1px solid #000;
+border-radius: 10px;
+padding:15px 0px 0px 7px;
+}
+.logovanje2{
+background-image: url(../slike/pozadina.jpg);
+margin:0px 0px 5px 0px;
+border:1px solid #000;
+border-radius: 10px;
+padding:15px 0px 0px 7px;
+}
+.korisnickoime input{
+border-radius:5px;
+padding:4px;
+border: 1px solid #000;
+}
+.opcije{
+border-radius:5px;
+padding:4px;
+border: 1px solid #000;
+}
+.prijava{
+background-color:#FF9C39;
+padding:4px;
+border: 1px solid #000;
+}
+.registracija{
+background-color:#FF9C39;
+padding:4px;
+border: 1px solid #000;
+margin-top:10px;
+}
+.lozinka input{
+border-radius:5px;
+padding:4px;
+border: 1px solid #000;
+}
+.desnakolona{
+width:758px;
+margin: 10px 10px 10px 210px;
+border:1px solid #000;
+border-radius: 10px;
+padding:15px;
+background-image: url(../slike/pozadina2.jpg);
+}
+.galerijaslika{
+width:758px;
+margin: 10 auto;
+border:1px solid #000;
+border-radius: 10px;
+padding:15px;
+background-image: url(../slike/pozadina2.jpg);
+}
+.sveslike{
+margin: 0px 0px 0px 18px;
+width:756px;
+}
+.leveslike{
+background-color:#fff;
+width:220px;
+float:left;
+margin: 5px;
+border:1px solid #000;
+border-radius: 10px;
+padding:5px;
+}
+.srednjeslike{
+background-color:#fff;
+width:220px;
+margin: 5px;
+float:left;
+border:1px solid #000;
+border-radius: 10px;
+padding:5px;
+}
+.desneslike{
+background-color:#fff;
+width:220px;
+margin: 5px;
+float:left;
+border:1px solid #000;
+border-radius: 10px;
+padding:5px;
+}
+.desnakolona ul{
+padding-left:15px;
+}
+.gradjaoka{
+float:right; 
+margin-left:10px;
+margin-bottom:10px;
+}
+.brendovi{
+width:758px;
+height:200px;
+}
+.desnakolonaslika{
+float:left; 
+margin-left:10px;
+}
+.desnakolonatext{
+float:right;
+margin-right:10px;
+width:500px;
+}
+.textgradnja ul li p{
+padding:5px;
+}
+.textgradja{
+padding: 30px 10px 10px 10px;
+}
+.textgradjaprosirena2{
+padding:30px 10px 10px 10px;
+height:520px;
+background-image: url(../slike/pozadina2.jpg);
+margin: 10px auto;
+border: 1px solid #000;
+border-radius: 10px;
+}
+.textgradjaprosirena3{
+padding:30px 10px 10px 10px;
+height:520px;
+background-image: url(../slike/pozadina2.jpg);
+margin: 10px auto;
+}
+.textgradjaprosirena{
+padding:30px 10px 10px 10px;
+height:400px;
+background-image: url(../slike/pozadina2.jpg);
+margin: 10px auto;
+border: 1px solid #000;
+border-radius: 10px;
+}
+.registracijaform{
+padding:0px 10px 10px 0px;
+height:520px;
+margin: 10px auto;
+width:400px;
+border-color:#fff;
+border-radius: 10px;
+}
+.fgore{
+margin: 10px auto;
+padding: 10px;
+}
+.fdole{
+margin: 10px auto;
+padding: 10px;
+}
+fieldset{
+border-color:#000;
+border-radius: 10px;
+margin:5px 0px 0px 0px;
+}
+fieldset legend{
+margin: 0px 0px 0px 30px;
+}
+.radiobtn{
+margin: 0px 0px 0px 10px;
+}
+.radiobtn2{
+margin: 0px 0px 0px -3px;
+}
+.textdeo{
+width:190px;
+margin: 5px 0px 0px 55px;
+border-radius:5px;
+padding:4px;
+border: 1px solid #000;
+}
+.textdeo2{
+margin: 5px 0px 0px 0px;
+width:200px;
+border-radius:5px;
+padding:4px;
+border: 1px solid #000;
+}
+.registracijaform h3{
+text-align: center;
+}
+.mojaslika{
+float:left;
+width:250px;
+margin: 20px 0px 20px 90px;
+box-shadow: -10px -10px 5px 1px #888; 
+}
+.mojaslika img{
+width:250px;
+height:366px;
+}
+.anketa{
+margin:0px 50px 10px 0px;
+padding:10px;
+width:450px;
+float:right;
+border: 1px solid #000;
+border-radius: 10px;
+}
+.omeni{
+margin: -20px 30px 20px 0px;
+padding-top:60px;
+float:right;
+width:500px;
+}
+.textomeni{
+margin: 30px 60px 20px 0px;
+width:450px;
+float:right;
+}
+.footer{
+background-color:#FF9C39;
+width:1000px;
+margin: 0px auto;
+height:40px;
+border: 1px solid #000;
+border-radius: 10px;
+}
+.unutarfootera{
+background-color:#FF9C39;
+width:1000px;
+
+}
+.navigacijadonja{
+background-color:#FF9C39;
+height:25px;
+width:490px;
+float:left;
+margin:5px;
+
+}
+.navigacijadonja ul{
+list-style:none;
+margin:0px auto;
+}
+.navigacijadonja li{
+ float:left;
+ margin:5px;
+}
+.copyright{
+background-color:#FF9C39;
+height:25px;
+width:450px;
+float:right;
+text-align:right;
+margin:5px;
+padding-right:5px;
+
+}

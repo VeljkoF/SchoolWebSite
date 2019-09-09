@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+	<channel>
+		<title>EyeCare</title>
+		<link>...</link>
+		<description>Svet o oku i očnim pomagalima</description>
+		<item>
+			<title>Nove slike naočara</title>
+			<link>galerija.html</link>
+			<description>Slike odredjenih brendova</description>
+		</item>
+		<item>
+			<title>Struktura sočiva</title>
+			<link>struktura_sociva.html</link>
+			<description>Saznaj te kakve sve strukture sočiva postoje</description>
+		</item>
+	</channel>
+</rss>
