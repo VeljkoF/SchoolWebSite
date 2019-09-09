@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<strane>
+	<strana>
+		<srcc>index.html</srcc>
+		<ime>Антички период</ime>
+	</strana>
+	<strana>
+		<srcc>vizantija.html</srcc>
+		<ime>Византија</ime>
+	</strana>
+	<strana>
+		<srcc>srednjevekovni.html</srcc>
+		<ime>Средњевековни српски Београд</ime>
+	</strana>
+	<strana>
+		<srcc>turska.html</srcc>
+		<ime>Турска и Аустриска владавина</ime>
+	</strana>
+	<strana>
+		<srcc>oslobadjanje.html</srcc>
+		<ime>Ослобађање Београда</ime>
+	</strana>
+	<strana>
+		<srcc>prestonica.html</srcc>
+		<ime>Престоница Србије и Југославије</ime>
+	</strana>
+	<strana>
+		<srcc>konak.html</srcc>
+		<ime>Стари конак</ime>
+	</strana>
+	<strana>
+		<srcc>stari.html</srcc>
+		<ime>Стари двор</ime>
+	</strana>
+	<strana>
+		<srcc>novi.html</srcc>
+		<ime>Нови двор</ime>
+	</strana>
+	<strana>
+		<srcc>saborna.html</srcc>
+		<ime>Саборна црква</ime>
+	</strana>
+	<strana>
+		<srcc>pozoriste.html</srcc>
+		<ime>Народно позориште</ime>
+	</strana>
+	<strana>
+		<srcc>most.html</srcc>
+		<ime>Мост краља Александра</ime>
+	</strana>
+</strane>

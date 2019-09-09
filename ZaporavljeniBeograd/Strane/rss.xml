@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="rss.xsl"?>
+<rss version="2.0">
+	<channel>
+		<title>Заборављени Београд</title>
+		<link>blas</link>
+		<description>Приказ Београда кроз историју и познате зграде</description>
+		<item>
+			<title>Нове слике старог Београда</title>
+			<link>galerija.html</link>
+			<description>Старе слике неких зграда Београда</description>
+		</item>
+		<item>
+			<title>Стари конак</title>
+			<link>konak.html</link>
+			<description>Стари конак којег више нема</description>
+		</item>
+	</channel>
+</rss>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<slike>
+	<slika>
+		<naziv>Хотел Москва</naziv>
+		<putanja>../Slike/Galerija/slika1.jpg</putanja>
+		<alt>hotel_moskva</alt>
+	</slika>
+	<slika>
+		<naziv>Педагошки музеј</naziv>
+		<putanja>../Slike/Galerija/slika2.jpg</putanja>
+		<alt>pedagoski_muzej</alt>
+	</slika>
+	<slika>
+		<naziv>Стара Теразиска фонтана</naziv>
+		<putanja>../Slike/Galerija/slika3.jpg</putanja>
+		<alt>stara_teraziska_fontana</alt>
+	</slika>
+	<slika>
+		<naziv>Народни музеј</naziv>
+		<putanja>../Slike/Galerija/slika4.jpg</putanja>
+		<alt>narodni_muzej</alt>
+	</slika>
+	<slika>
+		<naziv>Београдско старо сајмиште</naziv>
+		<putanja>../Slike/Galerija/slika5.jpg</putanja>
+		<alt>staro_sajmiste</alt>
+	</slika>
+	<slika>
+		<naziv>Хотел Палас</naziv>
+		<putanja>../Slike/Galerija/slika6.jpg</putanja>
+		<alt>hotel_palas</alt>
+	</slika>
+	<slika>
+		<naziv>Капетан Мишино здање</naziv>
+		<putanja>../Slike/Galerija/slika7.jpg</putanja>
+		<alt>misino_zdanje</alt>
+	</slika>
+	<slika>
+		<naziv>Капетан Мишино здање</naziv>
+		<putanja>../Slike/Galerija/slika8.jpg</putanja>
+		<alt>misino_zdanje2</alt>
+	</slika>
+	<slika>
+		<naziv>Улица Кнез Михајлова</naziv>
+		<putanja>../Slike/Galerija/slika9.jpg</putanja>
+		<alt>knez_mihajlova</alt>
+	</slika>
+	<slika>
+		<naziv>Македонска-Политика и Друга мушка гимназија</naziv>
+		<putanja>../Slike/Galerija/slika10.jpg</putanja>
+		<alt>nmakedonska</alt>
+	</slika>
+	<slika>
+		<naziv>Народно позориште</naziv>
+		<putanja>../Slike/Galerija/slika11.jpg</putanja>
+		<alt>narodno_pozpriste</alt>
+	</slika>
+	<slika>
+		<naziv>Поглед на пристанисте и мост Краља Александра</naziv>
+		<putanja>../Slike/Galerija/slika12.jpg</putanja>
+		<alt>pristaniste</alt>
+	</slika>
+	<slika>
+		<naziv>Позоришни трг-Трг Републике</naziv>
+		<putanja>../Slike/Galerija/slika13.jpg</putanja>
+		<alt>trg_republike</alt>
+	</slika>
+	<slika>
+		<naziv>Руски цар</naziv>
+		<putanja>../Slike/Galerija/slika14.jpg</putanja>
+		<alt>ruski_car</alt>
+	</slika>
+	<slika>
+		<naziv>Савезна скупштина</naziv>
+		<putanja>../Slike/Galerija/slika15.jpg</putanja>
+		<alt>skupstina</alt>
+	</slika>
+	<slika>
+		<naziv>Пијаца Зелени венац</naziv>
+		<putanja>../Slike/Galerija/slika16.jpg</putanja>
+		<alt>zeleni_venac</alt>
+	</slika>
+	<slika>
+		<naziv>Теразиска чесма</naziv>
+		<putanja>../Slike/Galerija/slika17.jpg</putanja>
+		<alt>terazije</alt>
+	</slika>
+	<slika>
+		<naziv>Палата Албаније у изградњи на Теразијама</naziv>
+		<putanja>../Slike/Galerija/slika18.jpg</putanja>
+		<alt>terazije2</alt>
+	</slika>
+	<slika>
+		<naziv>Трг републике</naziv>
+		<putanja>../Slike/Galerija/slika19.jpg</putanja>
+		<alt>trg_republike2</alt>
+	</slika>
+	<slika>
+		<naziv>Narodni muzej</naziv>
+		<putanja>../Slike/Galerija/slika20.jpg</putanja>
+		<alt>narodni_muzej</alt>
+	</slika>
+</slike>

@@ -1,0 +1,576 @@
+﻿*{
+	margin: 0px;
+	padding: 0px;
+	font-family: Century Gothic, Arial;
+}
+.cisti{
+	clear:both;
+}
+body{
+	/* background:#78AAE5; /*19458e */ 
+}
+#omor{
+	margin:0px auto;
+	width:1300px;
+	height:1450px;
+	
+}
+#donjiDeo{
+	width:1300px;
+	height:1420px;
+	margin:0px auto;
+	position:relative;
+	z-index:0;
+}
+#log{
+	margin-left:1100px;
+	width:215px;
+	margin-bottom:10px;
+	position:absolute;
+	z-index:1;
+	
+}
+a{
+	color:black;
+	text-decoration:none;
+}
+.prijava{
+	color: #19458e;
+}
+#log a{
+	display:block;
+	text-decoration:none;
+	float:right;
+	width:110px;
+}
+.f1{
+	margin-top:25px;
+	margin-left:35px;
+	padding-bottom:10px;
+	background-color: #78AAE5;
+	padding-left:5px;
+	border-radius: 0px 0px 10px 10px;  
+}
+#tbKorisnickoIme, #tbLozinka{
+	width:162px;
+	height:17px;
+	border-radius: 3px;
+}
+#levaslika{
+	float:left;
+	width:200px;
+	height:1400px;
+	margin:0px auto;
+	background-image: url("../Slike/gotova4.jpg");
+	background-repeat: repeat-y;
+	margin-top:25px;
+}
+#sajt{
+	margin-top:25px;
+	float:left;
+	width:900px;
+	height:1400px;
+	
+}
+#head{
+	/* background-image: url("../Slike/Slide/slide14.jpg"); */
+	float:left;
+	margin: 0px auto;
+	width:900px;
+	height:300px;
+	
+}
+#slide{
+	margin:0px auto;
+	width:900px;
+	height:300px;
+	float:left;
+	position:relative;
+	z-index:0;
+}
+.slideShow{
+	display:inline;
+}
+#slide img{
+	display:none;
+	width:900px;
+	height:300px;
+}
+#unutar_head{
+	position:relative;
+	width:900px;
+	height:300px;
+	float:left;
+	top:-300px;
+}
+#logo{
+	padding-top: 50px;
+	padding-left:20px;
+	float:left;
+	width:210px;
+	height:200px;
+}
+#naslov{
+	width:270px;
+	float:right;
+	margin-top:40px;
+	margin-right:40px;
+	font-size:18px;
+	color:#3c4187;
+	background-color: #FFF;
+	box-shadow: 10px 10px 5px #000;
+	border-radius: 10px;
+}
+#naslov h1{
+	padding:10px;
+	text-shadow: 2px 2px #FF0000;
+}
+#searchbox{
+	position:absolute;
+	margin:250px 0px 20px 600px;
+	float:right;
+}
+#tbSearch{
+	width:160px;
+	height:20px;
+	border-radius: 5px;
+}
+#btPretraga{
+	height:28px;
+	width:80px;
+	border-radius: 5px;
+}
+#btPrijava{
+	height:25px;
+	width:60px;
+	border-radius: 3px;
+	font-size:12px;
+}
+#btRegistacija{
+	height:25px;
+	width:105px;
+	font-size:12px;
+	border-radius: 5px;
+}
+#navigacija{
+	width:900px;
+	height:40px;
+	font-size:16px;
+	background-color:#19458e/*#78AAE5*/;	
+}
+#navigacija ul{
+	padding-top:5px;
+	list-style: none;
+	width:900px;
+}
+#navigacija li{
+	padding-left:65px;
+	margin:5px;
+	display:inline;
+}
+#navigacija ul li{	
+	float: left;
+}
+#navigacija ul li a{
+	text-decoration: none;
+	color:#fff;
+	padding:10px;
+	
+	
+}
+#navigacija ul li a:hover{	
+	background: #78AAE5;
+	color:#000;
+	font-style: italic;	
+	/* border: 1px solid #000; */
+	border-radius: 15px 15px 0px 0px;
+}
+#navigacija ul div{
+	position:absolute;
+	margin-top:10px;
+	visibility: hidden;
+	background: #78AAE5;
+	/* border: 1px solid #000; */
+	border-radius: 0px 15px 15px 15px;
+}
+#navigacija ul div a{
+	display: block;
+	background: #78AAE5;
+	color:#000;
+	width:auto;
+	border-radius: 15px;
+	font-size:13px;
+	width:190px;
+}
+#navigacija ul div a:hover{
+	background: #19458e;
+	color: #FFF;
+	border-radius: 0px 15px 15px 15px;
+	font-style: italic;
+	font-size:15px;
+}
+#sadrzaj{
+	width:900px;
+	height:1025px;
+}
+#text{
+	padding:25px;
+	font-size:15px;
+	
+}
+#text p{
+	text-indent:50px;
+	text-align:justify;
+	
+}
+#text h2{
+	font-size:35px;
+	padding-top:10px;
+	padding-left:30px;
+	text-shadow: 5px 5px 5px #19458e;
+}
+#text h3{
+	font-size:25px;
+	padding-top:30px;
+	padding-left:70px;
+}
+#slikaja{
+	float:right;
+	padding:20px 100px 10px 30px;
+}
+#slikaja img{
+	width: 300px;
+	height:281px;
+	border: 3px solid #19458e;
+}
+#omeni{
+	width:400px;
+	margin-left:20px;
+	margin-top:50px;
+}
+#anketa{
+	margin: 0px auto;
+	border: 5px solid #19458e;
+	box-shadow: 3px 3px 50px #78AAE5;
+	width:500px;
+	padding:20px;
+	margin-top:60px;
+}
+#slika{
+	float:right;
+	padding-left:10px;
+}
+#slika img{
+	width: 200px;
+	height:266px;
+}
+#slika p{
+	font-size: 12px;
+	text-indent:0px;
+	text-align:center;
+}
+#slika2{
+	float:left;
+	padding:70px 60px 0px 60px;
+}
+#slika2 img{
+	width: 250px;
+	height:295px;
+}
+#slika2 p{
+	font-size: 12px;
+	text-indent:15px;
+	text-align:center;
+	
+}
+#slika3{
+	float:right;
+	padding:30px 30px 0px 30px;
+}
+#slika3 img{
+	width: 200px;
+	height:338px;
+}
+#slika3 p{
+	font-size: 12px;
+	text-indent:15px;
+	text-align:center;
+	
+}
+#slika4{
+	float:left;
+	padding:40px 30px 20px 40px;
+}
+#slika4 img{
+	width: 300px;
+	height:202px;
+}
+#slika4 p{
+	font-size: 12px;
+	text-indent:0px;
+	text-align:center;
+	
+}
+#slika5{
+	float:left;
+	padding:10px 30px 0px 30px;
+}
+#slika5 img{
+	width: 300px;
+	height:134px;
+}
+#slika5 p{
+	font-size: 12px;
+	text-indent:0px;
+	text-align:center;
+	
+}
+#slika6{
+	float:right;
+	padding:10px 30px 10px 30px;
+}
+#slika6 img{
+	width: 200px;
+	height:308px;
+}
+#slika6 p{
+	font-size: 12px;
+	text-indent:0px;
+	text-align:center;
+}
+#slika7{
+	float:right;
+	padding:40px 30px 10px 30px;
+}
+#slika7 img{
+	width: 200px;
+	height:282px;
+}
+#slika7 p{
+	font-size: 12px;
+	text-indent:0px;
+	text-align:center;
+}
+#slika8{
+	float:left;
+	padding:40px 30px 10px 30px;
+}
+#slika8 img{
+	width: 200px;
+	height:242px;
+}
+#slika8 p{
+	font-size: 12px;
+	text-indent:0px;
+	text-align:center;
+}
+#slika9{
+	float:right;
+	padding:40px 30px 10px 30px;
+}
+#slika9 img{
+	width: 375px;
+	height:200px;
+}
+#slika9 p{
+	font-size: 12px;
+	text-indent:0px;
+	text-align:center;
+}
+#slika10{
+	float:left;
+	padding:40px 30px 10px 30px;
+}
+#slika10 img{
+	width: 325px;
+	height:200px;
+}
+#slika10 p{
+	font-size: 12px;
+	text-indent:0px;
+	text-align:center;
+}
+#slika11{
+	float:left;
+	padding:40px 30px 10px 30px;
+}
+#slika11 img{
+	width: 361px;
+	height:200px;
+}
+#slika11 p{
+	font-size: 12px;
+	text-indent:0px;
+	text-align:center;
+}
+#slika12{
+	float:right;
+	padding:40px 30px 10px 30px;
+}
+#slika12 img{
+	width: 300px;
+	height:230px;
+}
+#slika12 p{
+	font-size: 12px;
+	text-indent:0px;
+	text-align:center;
+}
+#footer{
+	width:900px;
+	height:35px;
+	background-color:#19458e/*#78AAE5*/;	
+}
+#leviDeo{
+	float:left;
+	width:370px;
+}
+#leviDeo ul{
+	padding-top:3px;
+	list-style: none;
+	width:300px;
+}
+#leviDeo li{
+	padding-left:30px;
+	margin:5px;
+	display:inline;
+}
+#leviDeo li a{
+	text-decoration: none;
+	color:#fff;
+	font-size:10px;
+}
+#copy{
+	margin-top:7px;
+	float:left;
+	color:white;
+	font-size:12px;
+	width:200px;
+}
+#copy a{
+	color:white;
+}
+#desniDeo{
+	width:50px;
+	float:right;
+	margin-right:10px;
+	margin-top:1px;
+}
+#desnaslika{
+	
+	float:right;
+	width:200px;
+	height:1400px;
+	margin-top:25px;
+	background-image: url("../Slike/gotova3.jpg");
+	background-repeat: repeat-y;
+	position:relative;
+	z-index:0;	
+}
+#galerija{
+	width:850px;
+	height:940px;
+	padding-left:60px;
+	padding-top:10px;
+}	
+#galerijaSlike{
+	width:190px;
+	height:180px;
+	float:left;
+	margin:0px auto;
+}
+#gslika{
+	margin:0px auto;
+	width:150px;
+	height:136px;
+	float:left;
+}
+#gslika a {
+	width:150px;
+	height:136px;
+	
+}
+#gslika img{
+	width:150px;
+	height:136px;
+	margin:10px;
+}
+#gslika p{
+	width:150px;
+	height:30px;
+	text-indent:0px;
+	float:left;
+	font-size:10px;
+	text-align:center;
+}
+#registracija fieldset{
+	width:500px;
+	height:550px;
+	margin:60px auto; 
+	margin-top:50px;
+	border:3px solid #19458e;
+	padding:20px;
+	box-shadow: 3px 3px 50px #78AAE5;
+}
+#registracija legend{
+	padding-left:10px;
+	padding-right:10px;
+	font-size:20px;
+	text-align:center;
+}
+#registracija table{
+	padding-top:50px;
+	margin:0px auto;
+	padding-bottom:50px;
+}
+#registracija h3{
+	font-size:15px;
+	padding-top:10px;
+	margin:0px auto;
+	padding-left:50px;
+}
+#btPrijava2{
+	height:25px;
+	width:60px;
+	border-radius: 3px;
+	font-size:12px;
+}
+#btPonisti{
+	height:25px;
+	width:70px;
+	font-size:12px;
+	border-radius: 5px;
+}
+#hmm {
+	width:500px;
+	margin:0px auto;
+}
+#hmm ul{
+	list-style:none;
+}
+#hmm fieldset{
+	width:400px;
+	height:150px;
+	margin:30px auto; 
+	margin-top:10px;
+	border:3px solid #19458e;
+	padding:20px;
+	box-shadow: 3px 3px 50px #78AAE5;
+}
+#hmm legend{
+	padding-left:10px;
+	padding-right:10px;
+	font-size:20px;
+	text-align:center;
+}
+#rezultat{
+	width: 500px;
+	margin:0px auto;
+	padding-left:60px;
+
+}
+#kolacic{
+	margin:0px auto;
+	margin-top:20px;
+	width:400px;
+}
